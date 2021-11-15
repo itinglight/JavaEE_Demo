@@ -26,22 +26,13 @@ public class login extends HttpServlet {
         System.out.println(identity);
         if(identity.equals("root")){
             System.out.println("超级管理员登录");
-            System.out.println("account:"+account+
-                    "\npassword:"+password);
+            System.out.println("account:"+account+"\npassword:"+password);
             resp.sendRedirect("/JavaEEWeb_war_exploded/pages/rootpages.html");
         }else{
             System.out.println("普通用户登录");
-            System.out.println("account:"+account+
-                    "\npassword:"+password);
-
+            System.out.println("account:"+account+"\npassword:"+password);
             resp.sendRedirect("/JavaEEWeb_war_exploded/pages/userpages.html");
-
-            
         }
-
-
-
-
 
        //
         System.out.println("IP 地址为："+req.getRemoteAddr());
