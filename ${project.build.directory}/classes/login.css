@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*
+#00A19D
+#FFF8E5
+#FFB344
+#E05D5D
+ */
+
+body{
+    background-color:#00A19D;
+
+}
+
+.login{
+
+    display:flex;
+    justify-content:center;
+    align-content:center;
+
+}
+
+.loginborder{
+    width: 500px;
+    height: 400px;
+    background-color:#FFF8E5;
+    margin-top:200px;
+    border-radius:40px;
+    text-align:center;
+
+    padding-top:20px;
+}
+/*设置账号密码文字大小*/
+.loginborder span{
+    margin-left: 15px;
+    font-size:20px;
+
+}
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+
+
+/*设置输入框大小 */
+.account  input,
+.password input{
+    width:280px;
+    height: 40px;
+    background-color:#f7e8c0;
+
+    border-radius: 15px;
+    margin:15px auto;
+
+    font-size: 30px;
+
+    /* 字体颜色 */
+    color:#E05D5D;
+    /* clear边框 */
+    border: none;
+    padding-left: 15px;
+
+}
+.loginborder input:focus{
+    outline:none;
+
+}
+
+
+
+/* 设置标题大小 */
+.loginborder>span{
+    font-size: 48px;
+    color:#E05D5D;
+
+}
+
+.loginborder button{
+    width: 50px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:#FFB344;
+}
+
+.loginborder #x{
+
+    width: 30px;
+    height: 30px;
+    background-color:#ff9900;
+    border: 3px solid rgb(230, 79, 10);
+    border-radius: 10px;
+    display:block;
+
+    position:relative;
+    top:10px;
+    right: 30px;
+    float: right;
+
+}
+
+#x::before{
+    content: '';
+    background-color: rgb(39, 39, 39);
+    width: 5px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 12.5px;
+
+    transform: rotate(45deg);
+    border-radius: 3px;
+}
+
+
+#x::after{
+    content: '';
+    background-color: rgb(39, 39, 39);
+    width: 5px;
+    height: 24px;
+    display: block;
+    margin-top: 3px;
+    margin-left: 12.5px;
+
+    transform: rotate(-45deg);
+    /* transform-origin:center; */
+    border-radius: 3px;
+}
+

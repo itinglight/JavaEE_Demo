@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #00A19D;
+    text-align:center;
+}
+h1{
+    margin: 60px auto;
+    color:#FFB344;;
+    font-size:48px
+}
+
+a{
+    width:280px;
+    height: 40px;
+    background-color:#FFF8E5;
+
+    display:block;
+    border-radius: 15px;
+    margin:50px auto;
+
+    font-size: 30px;
+    /* 清除下划线 */
+    text-decoration: none;
+    /* 字体颜色 */
+    color:#E05D5D;
+
+}

@@ -2,6 +2,7 @@
 *.class
 
 target/
+src/main/webapp/node_modules
 # Log file
 *.log
 
